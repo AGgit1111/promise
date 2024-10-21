@@ -39,3 +39,6 @@ bun.lockb
 *.log
 *.tmp
 *.temp
+
+# Ignore nested git repositories
+scentshelf
