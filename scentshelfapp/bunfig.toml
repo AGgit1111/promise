@@ -1,0 +1,17 @@
+[build]
+entrypoints = ["./src/index.tsx"]
+outdir = "./build"
+sourcemap = "external"
+public = "./public"
+
+[dev]
+port = 3000
+
+[install]
+exact = true
+
+[install.scopes]
+production = { enabled = true }
+
+[default]
+registry = "https://registry.npmjs.org"
